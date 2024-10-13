@@ -1,0 +1,835 @@
+
+/*Navbar*/
+
+
+.navbar2{
+    background-image: linear-gradient(25deg, black,rgb(83, 97, 147), black);
+    padding: 10px;
+    
+
+}
+
+.navbar-light  .navbar-nav .nav-link{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: bold; 
+    padding-bottom: -20px;
+}
+.navbar-light  .navbar-brand{
+    font-size: 30px;
+}
+
+img{
+    height: 25px;
+    height: 25px;
+}
+.img-fluid{
+    padding: 10px;
+}
+
+.navbar-brand{
+    padding: 40px;
+}
+
+.BgColour {
+    color: black;
+    transition: all 1s;
+    background-color: red;
+    border-bottom: 1px solid lightgray;
+}
+
+
+/*Navbar End*/
+
+/*Home*/
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 0.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.back-video{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
+}
+.content{
+    width: 100%;
+    height: 100vh;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    text-align: center;
+}
+
+.content h1{
+    color: #fff;
+}
+
+.content h4{
+    color: #fff;
+}
+
+.content .para{
+    font-size: small;
+}
+
+.content p{
+    color: #fff;
+}
+
+.content .btn{
+    
+    margin-top: 340px;
+    padding: 10px;
+ 
+}
+
+.content .btn a.button{
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px 100px;
+    background-color: #fff;
+    backdrop-filter: blur(8px);
+    font-weight: 600;
+    border-radius: 5px;
+    color: #000000;
+    background-color:rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(8px);
+    transition: 0.3s ease;
+}
+
+.content .btn a.btn2{
+    background-color: rgba(34,34,35,0.65);
+    color: #fff;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: transparent;
+    color: white;
+    font-size: smaller;
+  }
+
+  @media screen and (max-width:770px){
+    .content h1{
+        font-size: 44px;
+    }
+    .content .btn{
+       font-size: 44px;
+       margin: -80px auto;
+       padding-top: 220px;
+       padding-bottom: 30px;
+       height: 150px;
+    }
+    .content p{
+        padding-top: 160px;
+    }
+
+   .content .para{
+    color: transparent;
+   }
+
+}
+/*Home End*/
+
+/*Page1*/
+
+.Page1{
+    background-image:url('images/tesla\ image1copy.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    scroll-behavior: smooth;
+    
+}
+
+.content1{
+    width: 100%;
+    height: 100vh;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    text-align: center;
+}
+
+.content1 h1{
+    color: #000000;
+}
+
+.content1 h4{
+    color: #000000;
+}
+
+.content1 .para{
+    font-size: small;
+}
+
+.content1 p{
+    color: #000000;
+}
+
+.content1 .btn{
+    
+    margin-top: 340px;
+    padding: 10px;
+}
+
+.content1 .btn a.button{
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px 100px;
+    background-color: #fff;
+    backdrop-filter: blur(8px);
+    font-weight: 600;
+    border-radius: 5px;
+    color: #000000;
+    background-color:rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(8px);
+    transition: 0.3s ease;
+}
+
+.content1 .btn a.btn2{
+    background-color: rgba(34,34,35,0.65);
+    color: #fff;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    font-size: smaller;
+  }
+  
+footer .link{
+    color: #000000;
+}
+
+@media screen and (max-width:770px){
+    .content1 h1{
+        font-size: 44px;
+    }
+    .content1 .btn{
+       font-size: 44px;
+       margin: -80px auto;
+       padding-top: 220px;
+       padding-bottom: 30px;
+       height: 150px;
+    }
+    .content1 p{
+        padding-top: 160px;
+    }
+
+   .content1 .para{
+    color: transparent;
+   }
+}
+
+/*Page2*/
+
+.Page2{
+    background-image:url('images/tesla\ image2\ copy.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    scroll-behavior: smooth;
+    
+}
+
+.content2{
+    width: 100%;
+    height: 100vh;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    text-align: center;
+}
+
+.content2 h1{
+    color: #000000;
+}
+
+.content2 h4{
+    color: #000000;
+}
+.content2 .para{
+    font-size: small;
+}
+
+.content2 p{
+    color: #000000;
+}
+
+.content2 .btn{
+    
+    margin-top: 340px;
+    padding: 10px;
+}
+
+.content2 .btn a.button{
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px 100px;
+    background-color: #fff;
+    backdrop-filter: blur(8px);
+    font-weight: 600;
+    border-radius: 5px;
+    color: #000000;
+    background-color:rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(8px);
+    transition: 0.3s ease;
+}
+
+.content2 .btn a.btn2{
+    background-color: rgba(34,34,35,0.65);
+    color: #fff;
+}
+
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    font-size: smaller;
+  }
+  
+.footer .link{
+    color: #000000;
+}
+
+@media screen and (max-width:770px){
+    .content2 h1{
+        font-size: 44px;
+    }
+    .content2 .btn{
+       font-size: 44px;
+       margin: -80px auto;
+       padding-top: 220px;
+       padding-bottom: 30px;
+       height: 150px;
+    }
+    .content2 p{
+        padding-top: 160px;
+    }
+
+   .content2 .para{
+    color: transparent;
+   }
+}
+/*Page3*/
+
+.Page3{
+    background-image:url('images/tesla\ image3\ copy.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    scroll-behavior: smooth;
+    
+}
+
+.content3{
+    width: 100%;
+    height: 100vh;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    text-align: center;
+}
+
+.content3 h1{
+    color: #000000;
+}
+
+.content3 h4{
+    color: #000000;
+}
+
+.content3 .para{
+    font-size: small;
+}
+
+.content3 p{
+    color: #ffffff;
+}
+
+.content3 .btn{
+    
+    margin-top: 340px;
+    padding: 10px;
+}
+
+.content3 .btn a.button{
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px 100px;
+    background-color: #fff;
+    backdrop-filter: blur(8px);
+    font-weight: 600;
+    border-radius: 5px;
+    color: #000000;
+    background-color:rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(8px);
+    transition: 0.3s ease;
+}
+
+.content3 .btn a.btn2{
+    background-color: rgba(34,34,35,0.65);
+    color: #fff;
+}
+
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    font-size: smaller;
+  }
+  
+  @media screen and (max-width:770px){
+    .content3 h1{
+        font-size: 44px;
+    }
+    .content3 .btn{
+       font-size: 44px;
+       margin: -80px auto;
+       padding-top: 220px;
+       padding-bottom: 30px;
+       height: 150px;
+    }
+    .content3 p{
+        padding-top: 160px;
+    }
+
+   .content3 .para{
+    color: transparent;
+   }
+  }
+/*Page4*/
+
+.Page4{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+    position: relative;
+    padding: 0.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-behavior: smooth;
+}
+.mass-video{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.content4{
+    width: 100%;
+    height: 100vh;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    text-align: center;
+}
+
+.content4 .para{
+    font-size: small;
+}
+
+.content4 h1{
+    color: #ffffff;
+}
+
+.content4 h4{
+    color: #ffffff;
+}
+
+.content4 p{
+    color: #fff;
+}
+
+.content4 .btn{
+    
+    margin-top: 360px;
+    padding: 10px;
+}
+
+.content4 .btn a.button{
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px 100px;
+    background-color: #fff;
+    backdrop-filter: blur(8px);
+    font-weight: 600;
+    border-radius: 5px;
+    color: #000000;
+    background-color:rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(8px);
+    transition: 0.3s ease;
+}
+
+.content4 .btn a.btn2{
+    background-color:transparent;
+    color: #fff;
+    border: 2px solid white;
+}
+
+@media screen and (max-width:770px){
+    .content4 h1{
+        font-size: 44px;
+    }
+    .content4 .btn{
+       font-size: 44px;
+       margin: -80px auto;
+       padding-top: 220px;
+       padding-bottom: 30px;
+       height: 150px;
+    }
+    .content4 p{
+        padding-top: 160px;
+    }
+
+   .content4 .para{
+    color: transparent;
+   }
+}
+
+/*Page5*/
+
+.Page5{
+    background-image:url('images/tesla\ image5\ copy.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    scroll-behavior: smooth;
+    
+}
+
+.content5{
+    width: 100%;
+    height: 100vh;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    text-align: center;
+}
+
+.content5 h1{
+    color: #000000;
+}
+
+.content5 h4{
+    color: #000000;
+}
+
+.content5 .para{
+    font-size: small;
+}
+
+.content5 p{
+    color: #ffffff;
+}
+
+.content5 .btn{
+    
+    margin-top: 380px;
+    padding: 10px;
+}
+
+.content5 .btn a.button{
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px 100px;
+    background-color: #fff;
+    backdrop-filter: blur(8px);
+    font-weight: 600;
+    border-radius: 5px;
+    color: #000000;
+    background-color:rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(8px);
+    transition: 0.3s ease;
+}
+
+.content5 .btn a.btn2{
+    background-color: rgba(34,34,35,0.65);
+    color: #fff;
+}
+
+@media screen and (max-width:770px){
+    .content5 h1{
+        font-size: 44px;
+    }
+    .content5 .btn{
+       font-size: 44px;
+       margin: -80px auto;
+       padding-top: 220px;
+       padding-bottom: 30px;
+       height: 150px;
+    }
+    .content5 p{
+        padding-top: 160px;
+    }
+
+   .content5 .para{
+    color: transparent;
+   }
+}
+
+
+/*Page6*/
+
+.Page6{
+    background-image:url('images/tesla\ image6\ copy.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    scroll-behavior: smooth;
+}
+
+.content6{
+    width: 100%;
+    height: 100vh;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    text-align: center;
+}
+
+.content6 h1{
+    color: #000000;
+}
+
+.content6 h4{
+    color: #000000;
+}
+
+.content6 .para{
+    font-size: small;
+}
+
+.content6 p{
+    color: #000000;
+}
+
+.content6 .btn{
+    
+    margin-top: 380px;
+    padding: 10px;
+}
+
+.content6 .btn a.button{
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px 100px;
+    background-color: #fff;
+    backdrop-filter: blur(8px);
+    font-weight: 600;
+    border-radius: 5px;
+    color: #000000;
+    background-color:rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(8px);
+    transition: 0.3s ease;
+}
+
+.content6 .btn a.btn2{
+    background-color: rgba(34,34,35,0.65);
+    color: #fff;
+}
+
+@media screen and (max-width:770px){
+    .content6 h1{
+        font-size: 44px;
+    }
+    .content6 .btn{
+       font-size: 44px;
+       margin: -80px auto;
+       padding-top: 220px;
+       padding-bottom: 30px;
+       height: 150px;
+    }
+    .content6 p{
+        padding-top: 160px;
+    }
+
+   .content6 .para{
+    color: transparent;
+   }
+}
+
+
+/*Page7*/
+
+.Page7{
+    background-image:url('images/tesla\ image7\ copy.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    scroll-behavior: smooth;
+}
+
+.content7{
+    width: 100%;
+    height: 100vh;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    text-align: center;
+}
+
+.content7 h1{
+    color: #000000;
+}
+
+.content7 h4{
+    color: #000000;
+}
+
+.content7 .para{
+    font-size: small;
+}
+
+.content7 p{
+    color: #000000;
+}
+
+.content7 .btn{
+    
+    margin-top: 390px;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.content7 .btn a.button{
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px 100px;
+    background-color: #fff;
+    backdrop-filter: blur(8px);
+    font-weight: 600;
+    border-radius: 5px;
+    color: #000000;
+    background-color:rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(8px);
+    transition: 0.3s ease;
+}
+
+.content7 .btn a.btn2{
+    background-color: rgba(34,34,35,0.65);
+    color: #fff;
+    padding: 10px 100px;
+}
+
+@media screen and (max-width:770px){
+    .content7 h1{
+        font-size: 44px;
+    }
+    .content7 .btn{
+       font-size: 44px;
+       margin: -80px auto;
+       padding-top: 220px;
+       padding-bottom: 30px;
+       height: 150px;
+    }
+    .content7 p{
+        padding-top: 160px;
+    }
+
+   .content7 .para{
+    color: transparent;
+   }
+}
+
+/*Page8*/
+
+.Page8{
+    background-image:url('images/tesla\ image8\ copy.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    scroll-behavior: smooth;
+}
+
+.content8{
+    width: 100%;
+    height: 100vh;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    text-align: center;
+}
+
+.content8 h1{
+    color: #000000;
+}
+
+.content8 h4{
+    color: #000000;
+}
+
+.content8 .para{
+    font-size: small;
+}
+
+.content8 p{
+    color: #000000;
+}
+
+.content8 .btn{
+    margin-top: 400px;
+    padding: 10px;
+}
+.content8 .btn a.button{
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px 100px;
+    background-color: rgba(244,244,244,1);
+    backdrop-filter: blur(8px);
+    font-weight: 600;
+    border-radius: 5px;
+    color: #000000;
+    transition: 0.3s ease;
+}
+
+@media screen and (max-width:770px){
+    .content8 h1{
+        font-size: 44px;
+    }
+    .content8 .btn{
+       font-size: 44px;
+       margin: 140px auto;
+       padding-top: 230px;
+    }
+    .content8 p{
+        padding-top: 160px;
+    }
+
+   .content8 .para{
+    color: transparent;
+   }
+   .Page7{
+    background-image:url('images/tesla\ image7\ copy.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+   }
+   .Page8{
+    background-image:url('images/tesla\ image8\ copy.jpg');
+   }
+
+   
+}
+
+
+
